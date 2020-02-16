@@ -1,0 +1,22 @@
+#绑定列表
+bindlist:
+  #将playerA绑定到playerB, playerB不在线时playerA无法进入游戏
+  playerA: playerB
+#消息
+message:
+  #A加入游戏时，踢出A时显示的消息
+  join_kick: '§e%player% §a不在，你不可以进来哟~~'
+  #B退出游戏时，踢出B时显示的消息
+  quit_kick: '§e%player% §a走啦，把你也带走咯~~'
+  #使用/ppbind list时显示的消息
+  bind_list: '§b%playerA% §r-> §a%playerB%'
+  #使用/ppbind add A B成功时显示的消息
+  bind_add: '§a已将%playerA%绑定至%playerB%'
+  #使用/ppbind add A B失败时显示的消息
+  bind_add_error: '§c%player%的绑定已存在'
+  #使用/ppbind remove A成功时显示的消息
+  bind_remove: '§a已移除%player%的绑定'
+  #使用/ppbind remove A失败时显示的消息
+  bind_remove_error: '§c%player%的绑定不存在'
+  #使用/ppbind reload时显示的消息
+  reload: '§a[PlayerBindPlayer] 已重载'

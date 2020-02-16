@@ -1,0 +1,12 @@
+name: PlayerBindPlayer
+main: com.tripleying.dogend.PlayerBindPlayer.Main
+version: 1.0.0
+author: Dogend
+prefix: PlayerBindPlayer
+commands:
+  ppbind:
+    usage: |
+      §b/ppbind add 玩家A 玩家B §a将玩家A绑定至玩家B
+      §b/ppbind remove 玩家A §a移除玩家A的绑定
+      §b/ppbind list §a查看绑定列表
+      §b/ppbind reload §a重载插件

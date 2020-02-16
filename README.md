@@ -1,5 +1,4 @@
-# PlayerBindPlayer
-A Minecraft Plugin.
+# PlayerBindPlayer - A Minecraft Plugin
 
 #### 将玩家A绑定到玩家B, 玩家B不在线时玩家A无法进入游戏
 
@@ -12,4 +11,4 @@ A Minecraft Plugin.
 ### 使用指令的权限:
     playerbindplayer.admin
 
-### 下载: http://qwq.嘤嘤嘤.com/plugins/playerbindplayer/download.php
+#### 下载: http://qwq.嘤嘤嘤.com/plugins/playerbindplayer/download.php
